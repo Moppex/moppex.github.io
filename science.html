@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>MOPPEX - Science</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.css">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/modernizr-2.7.1.js"></script>
+
+  <!-- Fav and touch icons -->
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="software.html">Software</a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <h1>MOPPEX</h1>
+    </div>
+  </header>
+    
+
+  <div class="card">
+    <h2> Project Goals </h2>
+    <h5>A paradigm shift in observing the ISM</h5>
+    <p>Unraveling the history of the formation of a galaxy and its multi-phase interstellar medium (ISM) via observations of the present molecular emission is indeed possible but requires a paradigm shift, involving Bayesian and Machine Learning techniques, in the way molecules are interpreted.  MOPPEX will (i) design a generalized method for the interpretation of molecular observations and molecular line ratios in nearby extragalactic regions in order to allow the quantification and characterization of the chemical differentiation within and across galaxies and (ii) use observational data from the world-class interferometer, ALMA, to determine the nature of the dense gas in two active (starburst and AGN dominated) galaxies, and to ultimately benchmark our new methodology. The prime goal of MOPPEX is to establish a set of unique molecular tracers characterizing different phases of the neutral gas in nearby galaxies.</p>
+  </div>
+
+  <div class="pic-card">
+    <div class="pic-card-div">
+      <h2> Observations </h2>
+      <h5>Physical and Chemical characterization of composite and starburst galaxies via molecules</h5>
+      <p>We are performing a comprehensive study of the dense gas in two active galaxies, NGC 1068 and NGC 253, with the aim of determining the structure and location of the multi-component ISM in both composite and starburst galaxies. </p>
+      <p>Comparative studies between composite galaxies (such as NGC 1068) and “pure” starbursts (such as NGC 253) are essential in order to determine the signatures of individual energetic processes. NGC 1068 is the best “astrochemical laboratory” - to date - to study and trace individual energetic processes within the AGN and the starburst ring. NGC 253 is the "chosen" galaxy for the ALMA Large Progam ALCHEMI which will prvide most complete extragalactic molecular inventory for a starburst galaxy.</p>
+    </div>
+    <div class="pic-card-div">
+      <img src="img/ngc1068.png">
+    </div>
+  </div>
+
+  <div class="pic-card">
+    <div class="pic-card-div">
+      <h2> Modelling </h2>
+      <h5>Developing tools to bridge observables and quantities of interest</h5>
+      <p>An important part of the MOPPEX project is the creation and use of modelling tools to bridge the gap between observables such as molecular line intensities and physical quantities of interest. Many of these tools are listed on our <a href="software.html">software page</a> but we primarily focus on the development of the chemical model UCLCHEM which allows us to produce chemical abundances from physical parameters. A full forward model which produces line intensities from basic physical parameters is a key part of MOPPEX. Currently we combine the outputs of UCLCHEM with radiative transfer models to model observed line intensities and we hope to expand to combining UCLCHEM with more in-depth hydrodynamical models.</p>
+    </div>
+    <div class="pic-card-div">
+      <img src="img/cch.png">
+    </div>
+  </div>
+
+  <div class="pic-card">
+    <div class="pic-card-div">
+      <h2> Statistics </h2>
+      <h5> Machine Learning and Bayesian Inference</h5>
+      <p>The use of statistics and machine learning is key to the MOPPEX project. As our modelling ambitions grow so do the computational costs. In order to counter this, the group are working on techniques such as emulation to replace computationally intensive parts of our models with neural networks which can produce the same outputs for much lower cost.</p>
+      <p> Further, if we combine high quality observations of the kind acquired with ALMA with state of the art models, the inference done should be of an equivalent standard. Tools based on MCMC methods of Bayesian inference are being developed by the group to allow users to extract probability distributions for the value of parameters of interest which take into account the uncertainties in the observations and modelling to give a clear view of what can be inferred from our data.</p>  
+    </div>
+    <div class="pic-card-div">
+      <img src="img/corner.png">
+    </div>
+  </div>
+
+  <footer class="footer">
+      <p>This is the footer.</p>
+  </footer>
+<!-- Placed at the end of the document so the pages load faster -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-2.1.0.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>

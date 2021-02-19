@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>MOPPEX - Software</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.css">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/modernizr-2.7.1.js"></script>
+
+  <!-- Fav and touch icons -->
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="software.html">Software</a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <h1>MOPPEX</h1>
+    </div>
+  </header>
+    
+    
+
+    <div class="card">
+      <h2> <a href="https://uclchem.github.io">UCLCHEM </a></h2>
+      <h4>A time-dependent gas-grain chemical code</h4>
+      <p>UCLCHEM is a gas-grain chemical code for astrochemical modelling that can be used as a stand alone Fortran program or a Python module. It propagates the abundances of chemical species through a network of user-defined reactions according to the physical conditions of the gas.</p>
+      <p> UCLCHEM is actively developed by the MOPPEX group and is designed with ease of use in mind. The physical model and hence gas conditions are set by interchangeable physics modules with a variety of physical parameters that can be set through simple interfaces. The code comes with <i>MakeRates</i>, a python script to generate chemical networks from simple lists of species and reactions.
+    </div>
+
+    <div class="card">
+      <h2>  <a href="https://github.com/uclchem/Chemulator">Chemulator</a></h2>
+      <h4> Fast, accurate chemistry for hydrodynamical models</h4>
+      <p>Chemistry is important to hydrodynamical models as it effectively sets the gas temperature by determining the abundances of important coolants. However, full chemical networks such as those used in <i>UCLCHEM</i> are typically too computationally expensive to include in a hydrodynamical model. Similarly, solving the chemistry in a time dependent way can also be a huge computational burden and equilibrium is often assumed instead.</p>
+      <p>The <i>MOPPEX</i> project intends to contribute to astrochemical research through the use of advanced statistical techniques. As such, we have produced a neural network based emulator which can calculate the time dependent temperature and chemical abundances of a gas. This significantly faster than solving the chemical network directly and can be embedded in hydrodynamical models to obtain accurate temperatures without the computational cost of a full chemical and radiative trasfer solver.</p>
+    </div>
+
+    <div class="card">
+      <h2> <a href="https://spectralradex.readthedocs.io">SpectralRadex</a> </h2>
+      <h4>A spectral model and RADEX wrap for Python</h4>
+      <p>SpectralRadex is a python module made up of two parts: a RADEX wrapper and a spectral model.</p>
+
+      <p>A number of libraries exist for the first purpose. However, SpectralRadex uses F2PY to compile a version of RADEX written in modern Fortran. As a result, running a RADEX model creates no subprocesses, no text files, and can be easily parallelized. Check our tutorials section for an example of running a grid of RADEX models quickly and entirely within Python.</p>
+
+      <p>For the second purpose, we use the RADEX calculated line opacities and excitation temperatures to calculate the brightness temperature as a function of frequency. This allows observed spectra to be modelled in python in a non-LTE fashion. See our spectral modelling tutorial for more.</p>
+    </div>
+
+    <footer class="footer">
+        <p>This is the footer.</p>
+    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-2.1.0.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      new WOW().init();
+    </script>
+    </body>
+</html>

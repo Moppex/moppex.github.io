@@ -1,0 +1,8 @@
+1 MOPPEX
+
+Unraveling the history of the formation of a galaxy and its multi-phase interstellar medium (ISM) via observations of the present molecular emission is indeed possible but requires a paradigm shift, involving Bayesian and Machine Learning techniques, in the way molecules are interpreted.  MOPPEX will (i) design a generalized method for the interpretation of molecular observations and molecular line ratios in nearby extragalactic regions in order to allow the quantification and characterization of the chemical differentiation within and across galaxies and (ii) use observational data from the world-class interferometer, ALMA, to determine the nature of the dense gas in two active (starburst and AGN dominated) galaxies, and to ultimately benchmark our new methodology. The prime goal of MOPPEX is to establish a set of unique molecular tracers characterizing different phases of the neutral gas in nearby galaxies.
+
+2. Physical and Chemical characterization of composite and starburst galaxies via molecules 
+
+We are performing a comprehensive study of the dense gas in two active galaxies, NGC 1068 and NGC 253, with the aim of determining the structure and location of the multi-component ISM in both composite and starburst galaxies. 
+Comparative studies between composite galaxies (such as NGC 1068) and “pure” starbursts (such as NGC 253) are essential in order to determine the signatures of individual energetic processes. NGC 1068 is the best “astrochemical laboratory” - to date - to study and trace individual energetic processes within the AGN and the starburst ring. NGC 253 is the "chosen" galaxy for the ALMA Large Progam ALCHEMI which will prvide most complete extragalactic molecular inventory for a starburst galaxy.
